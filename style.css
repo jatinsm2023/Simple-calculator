@@ -35,7 +35,7 @@ body {
     height: 4rem;
     padding: 2rem;
     font-size: 1.5rem;
-    max-width: 210px;
+    max-width: 240px;
     border-radius: 1em;
     margin: auto;
     color: black;
@@ -48,7 +48,7 @@ body {
     width: fit-content;
     text-align: center;
     /* padding: 0.2rem; */
-    max-width: 280px;
+    max-width: 305px;
     margin: auto;
     background-color: rgb(246, 248, 248);
 }
