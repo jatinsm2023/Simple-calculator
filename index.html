@@ -22,16 +22,15 @@
         <div class="numbers">
             <button class="every-number" onclick="
                 DisplayClear();
-            ">C</button>
+            " style="background-color: #FF9500; width:8rem">C</button>
             <button class="every-number" onclick="
-                DisplayNumber('(');
-            ">(</button>
-            <button class="every-number" onclick="
-                DisplayNumber(')')
-            ">)</button>
-            <button class="every-number" onclick="
-                DisplayNumber('/')
-            ">/</button>
+//                DisplayNumber('(');
+                DeletelastElement();
+            " style="background-color: #FF9500;">D</button>
+            
+            <button class="every-number" onclick=" 
+                <!-- DisplayNumber('/')
+            " style="background-color: #FF9500;">/</button>
             <button class="every-number" onclick="
                 DisplayNumber('7')
             ">7</button>
@@ -43,7 +42,7 @@
             ">9</button>
             <button class="every-number" onclick="
                 DisplayNumber('*')
-            ">x</button>
+            " style="background-color: #FF9500;">x</button>
             <button class="every-number" onclick="
                 DisplayNumber('4')
             ">4</button>
@@ -55,7 +54,7 @@
             ">6</button>
             <button class="every-number" onclick="
                 DisplayNumber('-')
-            ">-</button>
+            " style="background-color: #FF9500;">-</button>
             <button class="every-number" onclick="
                 DisplayNumber('1')
             ">1</button>
@@ -67,7 +66,7 @@
             ">3</button>
             <button class="every-number" onclick="
                 DisplayNumber('+')
-            ">+</button>
+            " style="background-color: #FF9500;">+</button>
             <button class="every-number" onclick="
                 DisplayNumber('00')
             ">00</button>
@@ -80,7 +79,7 @@
             <button class="every-number" id="equalbutton" onclick="
         
                 DisplayCalculation();
-            ">=</button>
+            " >=</button>
         </div>
     </div>
     <script src="script.js"></script>
