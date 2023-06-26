@@ -18,3 +18,14 @@ function DisplayCalculation() {
         .innerText = PreviousCal;
     // console.log(PreviousCal);
 }
+
+function DeletelastElement() {
+    let Elem = document.querySelector('.js-Number-Display')
+        .innerText;
+    // console.log(Elem.length);
+    Elem = Elem.substr(0,Elem.length-1);
+    // console.log(Elem[Elem.length-1]);
+    // console.log(Elem);
+    document.querySelector('.js-Number-Display')
+        .innerText = Elem;
+}
