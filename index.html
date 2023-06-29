@@ -14,72 +14,89 @@
     <div class="calculator">
 
         <div class="container">
-            <p class="js-Number-Display"></p>
+            <span class="js-Number-Display"></span>
             <br>
-            <p class="js-Answer-Display" style="text-align: right;"></p>
+            <p class="js-Answer-Display" style="text-align: right; font-size: 3rem"></p>
         </div>
         <br>
         <div class="numbers">
             <button class="every-number" onclick="
+//                FontSize();
                 DisplayClear();
-            " style="background-color: #FF9500; width:8rem">C</button>
+                " style="background-color: #FF9500; width:8rem">C</button>
             <button class="every-number" onclick="
-//                DisplayNumber('(');
+                //                DisplayNumber('(');
+//                FontSize();
                 DeletelastElement();
-            " style="background-color: #FF9500;">D</button>
-            
+                " style="background-color: #FF9500;">D</button>
+
             <button class="every-number" onclick=" 
-                 DisplayNumber('/')
-            " style="background-color: #FF9500;">/</button>
+
+                DisplayNumber('/')
+                " style="background-color: #FF9500;">/</button>
             <button class="every-number" onclick="
+                
                 DisplayNumber('7')
-            ">7</button>
+                ">7</button>
             <button class="every-number" onclick="
+                
                 DisplayNumber('8')
-            ">8</button>
+                ">8</button>
             <button class="every-number" onclick="
-                DisplayNumber('9')
-            ">9</button>
+            
+            DisplayNumber('9')
+                ">9</button>
             <button class="every-number" onclick="
+                
                 DisplayNumber('*')
-            " style="background-color: #FF9500;">x</button>
+                " style="background-color: #FF9500;">x</button>
             <button class="every-number" onclick="
+                
                 DisplayNumber('4')
-            ">4</button>
+                ">4</button>
             <button class="every-number" onclick="
+                
                 DisplayNumber('5')
-            ">5</button>
+                ">5</button>
             <button class="every-number" onclick="
+                
                 DisplayNumber('6')
-            ">6</button>
+                ">6</button>
             <button class="every-number" onclick="
+                
                 DisplayNumber('-')
-            " style="background-color: #FF9500;">-</button>
+                " style="background-color: #FF9500;">-</button>
             <button class="every-number" onclick="
+                
                 DisplayNumber('1')
-            ">1</button>
+                ">1</button>
             <button class="every-number" onclick="
+                
                 DisplayNumber('2')
-            ">2</button>
+                ">2</button>
             <button class="every-number" onclick="
+                    
                 DisplayNumber('3')
-            ">3</button>
+                ">3</button>
             <button class="every-number" onclick="
+                
                 DisplayNumber('+')
-            " style="background-color: #FF9500;">+</button>
+                " style="background-color: #FF9500;">+</button>
             <button class="every-number" onclick="
+                
                 DisplayNumber('00')
-            ">00</button>
+                ">00</button>
             <button class="every-number" onclick="
                 DisplayNumber('0')
-            ">0</button>
+                ">0</button>
             <button class="every-number" onclick="
+                
                 DisplayNumber('.')
             ">.</button>
             <button class="every-number" id="equalbutton" onclick="
         
                 DisplayCalculation();
-            " >=</button>
+            ">=</button>
         </div>
     </div>
     <script src="script.js"></script>
