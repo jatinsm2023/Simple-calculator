@@ -39,6 +39,7 @@ body {
     border-radius: 1em;
     margin: auto;
     color: black;
+    /* width: fit-content; */
 }
 
 .numbers {
